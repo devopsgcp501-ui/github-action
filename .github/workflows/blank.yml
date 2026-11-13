@@ -1,0 +1,10 @@
+name: myfirst githubaction
+on: workflow_dispatch
+jobs:
+ myjob1:
+  runs-on: ubuntu-26.04
+  steps:
+   - name: display echo
+     run: echo hi
+   - name: Bye echo
+     run: echo Bye     
