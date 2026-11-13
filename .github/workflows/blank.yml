@@ -5,6 +5,6 @@ jobs:
   runs-on: ubuntu-26.04
   steps:
    - name: install 
-     run: apt install wget
+     run: sudo apt install curl -y
    - name: Bye echo
      run: echo Bye     
