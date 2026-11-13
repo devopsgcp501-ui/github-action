@@ -4,7 +4,7 @@ jobs:
  myjob1:
   runs-on: ubuntu-26.04
   steps:
-   - name: display echo
-     run: echo hi
+   - name: install 
+     run: apt install wget
    - name: Bye echo
      run: echo Bye     
